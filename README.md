@@ -140,8 +140,8 @@ plt.title('Sector-wise Net Income Trend Over Years')
 plt.legend()
 plt.show()
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/Sector%20wise%20Revenue%20trend%20over%20year.png)
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/Sector%20wise%20net%20income%20trend%20over%20years.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/Sector-wise%20Revenue%20Trend%20Over%20Years.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/Sector-wise%20Net%20Income%20Trend%20Over%20Years.png)
 # (iii)Sector-wise patterns
 ```python
 
@@ -174,7 +174,7 @@ plt.ylabel('Revenue')
 plt.legend()
 plt.show()
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/Sector%20wise%20Revenue%20patterns%20over%20years.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/Sector-wise%20Revenue%20Pattern%20Over%20Years.png)
 # 2 Time-Series Dataset Creation
 # (i) Monthly average adjusted closing prices 
 
@@ -228,7 +228,7 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show() # Use plt.show() for notebook
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/Monthly%20average%20Adjusted%20Closing%20Price%20Trends.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/Monthly%20Average%20Adjusted%20Closing%20Price%20Trend%20(2010-2016).png)
 # (ii) Monthly revenue (using fundamentals)
 ```python
 import pandas as pd
@@ -293,8 +293,7 @@ def plot_average_annual_revenue(file_path='fundamentals.csv'):
 # Call the function to run the analysis and plot the chart
 plot_average_annual_revenue()
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/Average%20annual%20total%20revenue%20trend.png)
-
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/Average%20Annual%20Total%20Revenue%20Trend%20(Across%20All%20Companies).png)
 # 3. Trend & Seasonality
 
 # (i) Use statsmodels or Prophet to detect seasonality in adjusted close prices
@@ -369,7 +368,8 @@ plt.suptitle('Monthly Average Adjusted Close Price Decomposition (2010-2016)', f
 plt.tight_layout()
 plt.show()
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/Monthly%20avearage%20adjusted%20close%20price%20decomposition.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/Monthly%20Average%20Adjusted%20Close%20Price%20Decomposition%20(2010-2016).png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/Monthly%20Average%20Adjusted%20Close%20Price%20Decomposition%20(2010-2016)-2.png)
 
 # (ii) Forecast next 12 months of adjusted price for top 5 companies
 
@@ -502,7 +502,7 @@ print(f"\n--- 12-Month Forecast Data for Top Company: {top_symbol} ---")
 # Changed to_markdown() to to_string() to avoid the 'tabulate' dependency warning
 print(future_forecast.to_string(index=False))
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/12-Months%20Adjusted%20close%20price%20forcast%20for%20top%205%20companies.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/12-Month%20Adjusted%20Close%20Price%20Forecast%20For%20Top%205%20Companies.png)
 # Category-Level Forecasting
  
 
@@ -650,7 +650,7 @@ print(f"\n--- 5-Year Annual Revenue Forecast Data for Top Sector: {top_sector} -
 print("Note: Revenue is in Billions of USD.")
 print(future_forecast.to_string(index=False))
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/5-Year%20annual%20total%20revenue%20forcast%20by%20GICS%20sector.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/5%20Years%20Annual%20Total%20Revenue%20Forecast%20By%20GICS%20Sector.png)
 
 # 5 Visualizations
 
@@ -830,8 +830,7 @@ print(f"\n--- 5-Year Annual Revenue Forecast Data for Top Sector: {top_sector} -
 print("Note: Revenue is in Billions of USD.")
 print(future_forecast.to_string(index=False))
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/Average%20Daily%20adjusted%20close%20price%20trend%20for%20top%205%20revenue%20sector.png)
-
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/Average%20Daily%20adjusted%20close%20price%20trend%20for%20top%205%20revenue%20sector.png)
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -997,4 +996,4 @@ plt.tight_layout()
 plt.show()
 
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/Predicted%205%20year%20growth%20by%20GICS%20sector.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/Predicted%205%20year%20growth%20by%20GICS%20sector.png)
