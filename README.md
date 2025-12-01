@@ -7,7 +7,7 @@
 ```python
 pip install pandas numpy matplotlib seaborn statsmodels prophet
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/import%20libraries%20output.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/A.PNG)
 ```python
 import pandas as pd
 import numpy as np
@@ -81,10 +81,8 @@ plt.ylabel("Volatility")
 plt.legend()
 plt.show()
 ```
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/EDA%20SS%201.png)
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/EDA%20SS2.png)
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/EDA%20SS3.png)
-![Dashboard Screenshot](https://github.com/RushiSonar123/New-York-Stock-Exchange/blob/main/EDA%20SS4.png)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/B.PNG)
+
 # (ii)Financial metrics over years
 
 ```python
