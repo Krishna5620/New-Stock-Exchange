@@ -7,7 +7,10 @@
 ```python
 pip install pandas numpy matplotlib seaborn statsmodels prophet
 ```
-![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/A.PNG)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/EDA%20SS%201.PNG)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/EDA%20SS%202.PNG)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/EDA%20SS%203.png)
+
 ```python
 import pandas as pd
 import numpy as np
