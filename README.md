@@ -7,10 +7,8 @@
 ```python
 pip install pandas numpy matplotlib seaborn statsmodels prophet
 ```
-![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/EDA%20SS%201.PNG)
-![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/EDA%20SS%202.PNG)
-![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/EDA%20SS%203.png)
-
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/A.PNG)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/B.PNG)
 ```python
 import pandas as pd
 import numpy as np
@@ -84,7 +82,11 @@ plt.ylabel("Volatility")
 plt.legend()
 plt.show()
 ```
-![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/B.PNG)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/EDA%20SS%201.PNG)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/EDA%20SS%202.PNG)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/AAPL%20Adjusted%20Close%20Price%20Over%20Time.PNG)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/AAPL%20Daily%20Returns%20Distribution.PNG)
+![Dashboard Screenshot](https://github.com/Krishna5620/New-Stock-Exchange/blob/main/EDA%20SS%203.png)
 
 # (ii)Financial metrics over years
 
